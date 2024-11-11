@@ -1,0 +1,114 @@
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
+
+* {
+  font-family: '思源黑体 CN';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+#app {
+  height: 100%;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.text-family {
+  font-family: 'SourceHanSansCN Reqular', 'SourceHanSansCN Medium';
+}
+
+
+.relative {
+  position: relative;
+}
+
+.syCn {
+  font-family: '思源黑体 CN';
+
+}
+
+@font-face {
+  font-family: SYMedium;
+  src: url('./assets/fonts/SourceHanSansCN-Medium.ttf');
+}
+
+@font-face {
+  font-family: YSBTiHei;
+  src: url('./assets/fonts/YouSheBiaoTiHei.ttf');
+}
+
+
+@font-face {
+  font-family: AlibabaBold;
+  src: url('./assets/fonts/Alibaba-PuHuiTi-Bold.ttf');
+}
+
+@font-face {
+  font-family: AlibabaHeavy;
+  src: url('./assets/fonts/Alibaba-PuHuiTi-Heavy.ttf');
+}
+
+@font-face {
+  font-family: AlibabaLight;
+  src: url('./assets/fonts/Alibaba-PuHuiTi-Light.ttf');
+}
+
+@font-face {
+  font-family: AlibabaMedium;
+  src: url('./assets/fonts/Alibaba-PuHuiTi-Medium.ttf');
+}
+
+@font-face {
+  font-family: AlibabaRegular;
+  src: url('./assets/fonts/Alibaba-PuHuiTi-Regular.ttf');
+}
+
+
+
+
+@font-face {
+  font-family: HSBlack;
+  src: url('./assets/fonts/HarmonyOS_Sans_SC_Black.ttf');
+}
+
+@font-face {
+  font-family: HSBold;
+  src: url('./assets/fonts/HarmonyOS_Sans_SC_Bold.ttf');
+}
+
+@font-face {
+  font-family: HSLight;
+  src: url('./assets/fonts/HarmonyOS_Sans_SC_Light.ttf');
+}
+
+@font-face {
+  font-family: HSMedium;
+  src: url('./assets/fonts/HarmonyOS_Sans_SC_Medium.ttf');
+}
+
+@font-face {
+  font-family: HSRegular;
+  src: url('./assets/fonts/HarmonyOS_Sans_SC_Regular.ttf');
+}
+
+@font-face {
+  font-family: HSThin;
+  src: url('./assets/fonts/HarmonyOS_Sans_SC_Thin.ttf');
+}

@@ -1,0 +1,11 @@
+{
+    "version": [
+        {
+            "version": "v1.0",
+            "build": "/upload/build/build.zip",
+            "renderer": "/upload/renderer/renderer.zip",
+            "static": "/upload/static/static.zip",
+            "views": "/upload/views/index.html"
+        }
+    ]
+}
